@@ -1,0 +1,20 @@
+package poly.noinheri;
+
+public class MainClass2 {
+
+	public static void main(String[] args) {
+		Rabbit r1 = new Rabbit();
+		Rabbit r2 = new Rabbit();
+		Rat rat1 = new Rat();
+		Warrior w1 = new Warrior("전사1");
+		
+		w1.showStatus();
+		w1.huntRabbit(r2);
+		w1.huntRabbit(r2);
+		w1.huntRabbit(r2);
+		w1.huntRabbit(r2);
+		w1.showStatus();
+		
+	}
+
+}
