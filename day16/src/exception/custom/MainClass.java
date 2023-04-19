@@ -16,8 +16,7 @@ public class MainClass {
 			 * 예외 클래스가 제공하는 getMessage() 메서드는
 			 * 예외의 원인 메시지를 String타입으로 리턴합니다.
 			 * 자바 표준 API에서 제공하는 다양한 예외클래스들은
-			 * 각각의 예외 원인 메시지가 기본적으로 객체 안에
-			 * 저장되어 있습니다.
+			 * 각각의 예외 원인 메시지가 기본적으로 객체 안에 저장되어 있습니다.
 			 */
 			e.printStackTrace();
 			System.err.println(e.getMessage());
